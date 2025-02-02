@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 15px 15px;
+    display: flex;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    height: 57px;
+    background-color: white;
+    color: black;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+
+}
+nav .input ,.icon,h2,h4{
+    margin:0px 20px;
+    cursor:pointer;
+}
+nav .input,.icons{
+    margin:0px 14rem;
+}
+nav .icons{
+    display:flex;
+    font-size: 20px;
+}
+nav .icons i{
+    margin:5px 10px;
+}
+nav h4{
+    margin: 6px 20px;
+}
+
+nav .input input[type="text"]{
+    padding: 3px 23px;
+    width: 326px;
+    border-radius:10px;
+}
+
+/*nav bar ends*/
+
+
+/*Banner styling strts*/
+#banner{
+    margin-top:60px;
+    position:relative;
+
+}
+#banner img{
+    height:400px;
+    width:100%;
+}
+#banner .text{
+    width:30%;
+    position:absolute;
+    top:60px;
+    left:100px;
+    height:120px;
+    color:white;
+    text-align:center;
+}
+#banner .text img{
+    height: 200px;
+    top: 0;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+/*banner styling ends*/
+
+
+
+
+/*product sytling starts*/
+#products{
+    margin-top:10px;
+    padding:0px 30px;
+    height:950px;
+    font-family: "Roboto", sans-serif;
+}
+#products>h1{
+    padding:10px 20px;
+    word-spacing:1px;
+}
+#products .wear{
+    width:100%;
+    
+}
+#products .col{
+    width:19%;
+    float:left;
+    margin:0px 5px;
+    box-shadow: 2px 2px 5px black;
+    border: 2px solid black;
+    height: 25rem;
+    border-radius:10px 10px 0px 0px;
+}
+
+.card img{
+    width:100%;
+    height:13rem;
+    border-radius:10px 10px 0px 0px;
+}
+.cardbody h3{
+    color:rgba(14, 218, 17, 0.888);
+}
+#products .cardbody{
+    padding:10px 10px;
+    font-family:sans-serif;
+    color:black;
+    font-size:20px;  
+}
+.wear2{
+    margin-top:10px;
+}
+.wear2 .text{
+    padding:10px 20px;
+    word-spacing:6px;
+    letter-spacing: 1px;;
+}
+/* products section is end*/
+/*  footer section is starts*/
+#footer{
+    margin-top:10px;
+     font-family: "Roboto", sans-serif;
+}
+#footer .main{
+    display:flex;
+    background-color:black;
+    padding:30px 20px;
+}
+#footer .main .content{
+    width:25%;
+    color:white;
+}
+.content h2,h4{
+    margin:3px 0px;
+}
+.end{
+     background-color: black;
+     color:white;
+     text-align:center;
+     margin-bottom: 10px;;
+     padding:10px 0px;
+}
