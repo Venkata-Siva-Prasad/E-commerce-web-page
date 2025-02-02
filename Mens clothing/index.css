@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#head{
+    background-color: rgba(229, 228, 228, 0.949);
+
+}
+.header{
+    font-family: "Open Sans", sans-serif;
+    overflow: hidden;
+    height: 8rem;
+    padding: 35px 20px;
+}
+.content input[type="text"]{
+    padding:0px 35px;
+}
+.content input[placeholder]{
+    font-size:18px;
+    letter-spacing:2px;
+}
+
+.header .content{
+    float:right;
+    display:flex;
+    margin-top:-40px;
+}
+.content i{
+    margin:0px 0px;
+    padding:1px;
+    background-color: rgba(157, 157, 157, 0.544);
+}
+/*header section ends */
+/*main section starts*/
+#main{
+    margin-top:10px;
+    
+    padding:0px 5rem;
+}
+nav a{
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    padding:10px 25px;
+    color:black;
+}
+nav{
+ padding:5px;
+}
+nav a:hover{
+    background-color: black;
+    color:white;
+    border-radius:10px;
+    transition:0.5s;
+}
+/*nav ends hear*/
+/*banner section  starts*/
+#banner{
+
+   margin-top:15px;
+    height:22rem;
+    overflow:hidden;
+    display:flex;
+}
+#banner .one{
+    width:60%;
+    position:relative;
+    font-family: "Dosis", sans-serif;
+}
+#banner .one img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+
+}
+.one .line{
+    position:absolute;
+    top: 50px;
+    left: 70px;
+    z-index:1;
+    color:gray;
+    font-size:30px;
+}
+#banner .second{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    margin:0px 5px;
+}
+#banner .second .sec{
+    height:11rem;
+    margin:1px 0px;
+    width:100%;
+    position:relative;
+
+}
+#banner .second .sec img{
+    height:100%;
+    width:150%;
+    object-fit:contain;
+}
+#banner .second .sec .line{
+    position:absolute;
+    font-family: "Dosis", sans-serif;
+    top: 55px;
+    left: 20px;
+}
+.sec .line h4{
+    font-size:23px;
+}
+/*items section begins*/
+#items>h1{
+    font-family: "Dosis", sans-serif;
+    margin:10px 10px;
+    border-bottom:1px solid black;
+    width:100%;
+    
+}
+#items{
+    margin-top:20px;
+}
+#items .row{
+    
+}
+#items .col{
+    float: left;
+    width: 24%;
+    height: 27rem;
+    margin: 10px 6px;
+    margin-bottom: 10px;
+}
+#items .card  img{
+    height: 18em;
+    width: 76%;
+    object-fit: cover;
+    margin: 0px 24px;
+    border:1px solid gray;
+} 
+ #items .cardbody{
+    padding:10px 20px;
+    font-family: "Dosis", sans-serif;
+    margin:2px 0px;
+}
+#items .cardbody p,h4,button{
+    margin-top:10px;
+}
+.cardbody button{
+    width:100%;
+    padding:5px;
+    color:white;
+    background-color:gray;
+    border-radius:5px;
+    border:none;
+    outline:none;
+}
+ #items .col img:hover{
+    scale:0.9;
+    box-shadow:4px 4px 5px gray;
+    box-shadow:-4px -4px 5px gray;
+    
+}
+ #items .cardbody button:active{
+    padding:6px;
+    box-shadow:4px 4px 5px black;  
+}
+ #items .new{
+     font-family: "Dosis", sans-serif;
+     margin:10px 10px;
+    border-bottom:1px solid black;
+    width:100%;
+}
+/*items  section ends*/
+/* third section starts*/
+#third {
+    margin-top:30px;
+}
+#third .col{
+    float: left;
+    width: 33%;
+    margin: 10px 2px;
+
+    height: 13rem;
+    overflow:hidden;
+    position:relative;
+    border:2px solid black;
+
+}
+#third .card img{
+    height: 100%;
+    width: 114%;
+    margin: 0px -22px;
+    object-fit: cover;
+}
+#third .card {
+    height:13rem;
+}
+#third .cardbody{
+    position:absolute;
+    top:25px;
+    color:black;
+    left:25px;
+    font-size:30px;
+    color:white;
+    font-family: "Dosis", sans-serif;
+    text-shadow:2px 2px 5px black;
+}
+/*  third section ends */
+/*footer section starts*/
+
+#footer{
+
+}
+#footer .main{
+    display:flex;
+    width:100%;
+    background-color: rgba(128, 128, 128, 0.796);
+
+}
+#footer .one,.two{
+    width:50%;
+    padding:20px;
+    color:white;
+}
+#footer .one{
+    margin:30px 0px;
+    font-size:20px;
+
+}
+#footer.two h1,i{
+    margin:5px 0px;
+    font-size:25px;
+
+}
+#footer i{
+    margin:5px 5px;
+}
